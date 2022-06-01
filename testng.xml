@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="HPTest" parallel="classes">
+    <classes>
+      <class name="Com.Susedemo.TestModel.LginpageTestClass"/>
+      <class name="Com.Susedemo.TestModel.Tc03singleproductaddtocart"/>
+      
+     <class name="Com.Susedemo.TestModel.Tc02logoutfunctionality"/>
+      <class name="Com.Susedemo.TestModel.Tc04multipleproductselection"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

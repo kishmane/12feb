@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="HPTest(failed)">
+    <classes>
+      <class name="Com.Susedemo.TestModel.Tc03singleproductaddtocart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sinlgeproductadd"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.Susedemo.TestModel.Tc03singleproductaddtocart -->
+      <class name="Com.Susedemo.TestModel.LginpageTestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logifunctionality"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.Susedemo.TestModel.LginpageTestClass -->
+      <class name="Com.Susedemo.TestModel.Tc04multipleproductselection">
+        <methods>
+          <include name="multipleproduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Com.Susedemo.TestModel.Tc04multipleproductselection -->
+    </classes>
+  </test> <!-- HPTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
